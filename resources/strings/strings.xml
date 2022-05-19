@@ -1,5 +1,5 @@
 <strings>
-	<string id="AppName">Wind speed is matters</string>
+	<string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">humidity</string>
 	<string id="Sunrise" scope="foreground">sunrise</string>
 	<string id="Sunset" scope="foreground">sunset</string>
