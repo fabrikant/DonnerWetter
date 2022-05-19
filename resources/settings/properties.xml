@@ -1,0 +1,17 @@
+<properties>
+
+	<property id="keyOW" type="string"></property>
+	<property id="Lat" type="float">0</property>
+	<property id="Lon" type="float">0</property>
+	<property id="Theme" type="number">1</property>
+	
+	<property id="HourlyIntrval" type="number">3</property>
+  	<property id="WindSpeedUnit" type="number">0</property>
+  	<property id="PressureUnit" type="number">0</property>
+  	<property id="WindAutocolor" type="boolean">true</property>
+  	<property id="TempAutocolor" type="boolean">true</property>
+  	
+  	<property id="FT0" type="number">1</property>
+  	<property id="FT1" type="number">2</property>
+  	
+</properties>

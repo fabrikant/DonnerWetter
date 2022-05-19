@@ -1,0 +1,14 @@
+Weather widget with current weather, daily and hourly forecast.
+To work, you need to get the api key on the website https://home.openweathermap.org/api_keys and set it to the app settings.
+Some devices do not support hourly forecast. Because they don't have enough memory to process the web request.
+The first launch is long because the weather pictures are downloaded. Be patient. It will be faster on next launches.
+To capture a location, use activity with gps or set the time by gps and launch widget. You can also set the location in the app settings.
+
+1.5.0 - Dark theme
+1.4.0 - Auto color for temperature. Added Enduro support
+1.3.3 - bug fix
+1.3.1 - Added setting. You can shift the data fields on the first page to the right or left.
+1.3.0 - Fix glance view
+1.2.0 - Add new devices. Added customization of data fields. Some rendering fixes.
+1.1.0 - Auto color for wind arrow added
+1.0.9 - Speed units added. m/s by default. You can change it in the settings. 

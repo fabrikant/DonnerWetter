@@ -1,0 +1,13 @@
+#! /bin/bash
+./converter.sh 16
+./converter.sh 18
+./converter.sh 20
+./converter.sh 22
+./converter.sh 25
+./converter.sh 26
+./converter.sh 28
+./converter.sh 30
+./converter.sh 35
+./converter.sh 36
+./converter.sh 38
+./converter.sh 42

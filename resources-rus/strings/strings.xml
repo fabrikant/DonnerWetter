@@ -1,0 +1,57 @@
+<strings>
+    <string id="AppName">Wind speed is matters</string>
+	<string id="Humidity" scope="foreground">влажность</string>
+	<string id="Sunrise" scope="foreground">восход</string>
+	<string id="Sunset" scope="foreground">заход</string>
+	<string id="SunEvent" scope="foreground">ближайший восход/заход солнца</string>
+	<string id="Pressure" scope="foreground">давление</string>
+	<string id="Uvi" scope="foreground">у-фиол</string>
+	<string id="DewPoint" scope="foreground">точка росы</string>
+	<string id="Visibility" scope="foreground">видимость</string>
+	<string id="Empty" scope="foreground">пусто</string>
+	
+	
+	<string id="ForecastDaily" scope="foreground">прогноз\nдневной</string>
+	<string id="ForecastHourly" scope="foreground">прогноз\nпочасовой</string>
+	
+	<string id="keyOW" scope="foreground">API ключ для погоды</string>
+	<string id="KeyOWPrompt" scope="foreground">получить его бесплатно</string>
+	
+	<string id="Lat" scope="foreground">Широта</string>
+	<string id="Lon" scope="foreground">Долгота</string>
+	<string id="HourlyIntrval" scope="foreground">Интервал часового прогноза</string>
+	
+	<string id="Min" scope="foreground">мин</string>
+	<string id="Max" scope="foreground">макс</string>
+	
+	<!--WIND UNITS -->
+	<!--USE VERY!!!! SHOT STRING. its displayed on screen-->
+	<string id="WindSpeedUnit" scope="foreground">Ед. изм. скорости</string>
+	
+	<string id="SpeedUnitMSec" scope="glance">м/с</string>
+	<string id="SpeedUnitKmH" scope="glance">км/ч</string>
+	<string id="SpeedUnitMileH" scope="glance">мл/ч</string>
+	<string id="SpeedUnitFtSec" scope="glance">фт/с</string>
+	<string id="SpeedUnitBof" scope="glance">бал</string>
+	<string id="SpeedUnitKnots" scope="glance">узл</string>
+	
+	<string id="WindAutocolor" scope="foreground">Автоцвет для указателя ветра</string>
+	<string id="TempAutocolor" scope="foreground">Автоцвет для температуры</string>
+	
+	<!--PRESSURE UNITS -->
+	<string id="PressureUnit" scope="foreground">Ед. изм. давления</string>
+	<string id="PrUMmHg" scope="foreground">мм рт ст</string>
+	<string id="PrUPsi" scope="foreground">фунт/дюйм2</string>
+	<string id="PrUInchHg" scope="foreground">дюймы рт. ст.</string>
+	<string id="PrUBar" scope="foreground">милибар</string>
+	<string id="PrUKPa" scope="foreground">килопаскаль</string>
+
+
+	<string id="FT0" scope="foreground">Поле 0</string>
+	<string id="FT1" scope="foreground">Поле 1</string>
+
+	<string id="Theme" scope="foreground">Тема</string>
+	<string id="Light" scope="foreground">Светлая</string>
+	<string id="Dark" scope="foreground">Темная</string>
+
+</strings>

@@ -1,0 +1,624 @@
+<drawables>
+
+	<bitmap id="Small_NA" scope="glance" filename="png-40/999-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<!-- Cloud -->
+	<bitmap id="Small_800d" scope="glance" filename="png-40/100-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_800n" scope="glance" filename="png-40/150-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_801d" scope="glance" filename="png-40/102-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_801n" scope="glance" filename="png-40/152-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_802d" scope="glance" filename="png-40/103-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_802n" scope="glance" filename="png-40/153-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_803d" scope="glance" filename="png-40/101-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_803n" scope="glance" filename="png-40/151-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_804d" scope="glance" filename="png-40/104-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_804n" scope="glance" filename="png-40/104-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+	<!-- Thunderstorm -->
+	<bitmap id="Small_200d" scope="glance" filename="png-40/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_200n" scope="glance" filename="png-40/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_201d" scope="glance" filename="png-40/302-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_201n" scope="glance" filename="png-40/302-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_202d" scope="glance" filename="png-40/303-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_202n" scope="glance" filename="png-40/303-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_210d" scope="glance" filename="png-40/1043.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_210n" scope="glance" filename="png-40/1043.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_211d" scope="glance" filename="png-40/2015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_211n" scope="glance" filename="png-40/2015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_212d" scope="glance" filename="png-40/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_212n" scope="glance" filename="png-40/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Small_221d" scope="glance" filename="png-40/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_221n" scope="glance" filename="png-40/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_230d" scope="glance" filename="png-40/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_230n" scope="glance" filename="png-40/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_231d" scope="glance" filename="png-40/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_231n" scope="glance" filename="png-40/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_232d" scope="glance" filename="png-40/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_232n" scope="glance" filename="png-40/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+ 	<!-- Drizzle -->
+ 	<bitmap id="Small_300d" scope="glance" filename="png-40/309-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_300n" scope="glance" filename="png-40/309-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_301d" scope="glance" filename="png-40/312-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_301n" scope="glance" filename="png-40/312-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_302d" scope="glance" filename="png-40/1035.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_302n" scope="glance" filename="png-40/1035.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_310d" scope="glance" filename="png-40/314-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_310n" scope="glance" filename="png-40/314-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<bitmap id="Small_311d" scope="glance" filename="png-40/315-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_311n" scope="glance" filename="png-40/315-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_312d" scope="glance" filename="png-40/316-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_312n" scope="glance" filename="png-40/316-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_313d" scope="glance" filename="png-40/317-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_313n" scope="glance" filename="png-40/317-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Small_314d" scope="glance" filename="png-40/318-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_314n" scope="glance" filename="png-40/318-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+  	<bitmap id="Small_321d" scope="glance" filename="png-40/308-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_321n" scope="glance" filename="png-40/308-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+	<!-- Rain -->
+   	<bitmap id="Small_500d" scope="glance" filename="png-40/300-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_500n" scope="glance" filename="png-40/350-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+ 
+  	<bitmap id="Small_501d" scope="glance" filename="png-40/300-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_501n" scope="glance" filename="png-40/350-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_502d" scope="glance" filename="png-40/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_502n" scope="glance" filename="png-40/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_503d" scope="glance" filename="png-40/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_503n" scope="glance" filename="png-40/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_504d" scope="glance" filename="png-40/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_504n" scope="glance" filename="png-40/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_511d" scope="glance" filename="png-40/1015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_511n" scope="glance" filename="png-40/1015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_520d" scope="glance" filename="png-40/305.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_520n" scope="glance" filename="png-40/305.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_521d" scope="glance" filename="png-40/306.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_521n" scope="glance" filename="png-40/306.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_522d" scope="glance" filename="png-40/307.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_522n" scope="glance" filename="png-40/307.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_531d" scope="glance" filename="png-40/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_531n" scope="glance" filename="png-40/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	
+	<!-- Snow -->
+   	<bitmap id="Small_600d" scope="glance" filename="png-40/407-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_600n" scope="glance" filename="png-40/457-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_601d" scope="glance" filename="png-40/400-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_601n" scope="glance" filename="png-40/400-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_602d" scope="glance" filename="png-40/401-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_602n" scope="glance" filename="png-40/401-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_611d" scope="glance" filename="png-40/408-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_611n" scope="glance" filename="png-40/408-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_612d" scope="glance" filename="png-40/409-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_612n" scope="glance" filename="png-40/409-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_613d" scope="glance" filename="png-40/410-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_613n" scope="glance" filename="png-40/410-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_615d" scope="glance" filename="png-40/406-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_615n" scope="glance" filename="png-40/456-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_616d" scope="glance" filename="png-40/404-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_616n" scope="glance" filename="png-40/404-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_620d" scope="glance" filename="png-40/1033.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_620n" scope="glance" filename="png-40/1033.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_621d" scope="glance" filename="png-40/1004.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_621n" scope="glance" filename="png-40/1004.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Small_622d" scope="glance" filename="png-40/499-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_622n" scope="glance" filename="png-40/499-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<!-- Atmosphere -->
+  	<bitmap id="Small_701d" scope="glance" filename="png-40/501-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_701n" scope="glance" filename="png-40/501-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_711d" scope="glance" filename="png-40/smoke.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_711n" scope="glance" filename="png-40/smoke.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_721d" scope="glance" filename="png-40/502-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_721n" scope="glance" filename="png-40/502-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_731d" scope="glance" filename="png-40/2010.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_731n" scope="glance" filename="png-40/2010.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_741d" scope="glance" filename="png-40/1017.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_741n" scope="glance" filename="png-40/1017.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_751d" scope="glance" filename="png-40/1051.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_751n" scope="glance" filename="png-40/1051.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_761d" scope="glance" filename="png-40/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_761n" scope="glance" filename="png-40/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_762d" scope="glance" filename="png-40/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_762n" scope="glance" filename="png-40/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_771d" scope="glance" filename="png-40/1602.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_771n" scope="glance" filename="png-40/1602.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Small_781d" scope="glance" filename="png-40/1002.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Small_781n" scope="glance" filename="png-40/1002.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+</drawables>
