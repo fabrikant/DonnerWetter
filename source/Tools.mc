@@ -67,12 +67,6 @@ module Tools {
 			res = [data[FIELD_TYPE_HUMIDITY].format("%d")+"%", Application.loadResource(Rez.Strings.Humidity)];
 		}else if (type == FIELD_TYPE_PRESSURE){
 			res = [Tools.pressureToString(data[FIELD_TYPE_PRESSURE]), Application.loadResource(Rez.Strings.Pressure)];
-		}else if (type == FIELD_TYPE_UVI){
-			res = [data[FIELD_TYPE_UVI].format("%.2f"), Application.loadResource(Rez.Strings.Uvi)];
-		}else if (type == FIELD_TYPE_VISIBILITY){
-			res = [Tools.distanceToString(data[FIELD_TYPE_VISIBILITY].format("%d")), Application.loadResource(Rez.Strings.Visibility)];
-		}else if (type == FIELD_TYPE_DEW_POINT){
-			res = [data[FIELD_TYPE_DEW_POINT].format("%d")+"°", Application.loadResource(Rez.Strings.DewPoint)];
 		}
 		return res;
 	}

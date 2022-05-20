@@ -2,11 +2,6 @@
     <string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">влажн.</string>
 	<string id="Pressure" scope="foreground">давление</string>
-	<string id="Uvi" scope="foreground">у-фиол</string>
-	<string id="DewPoint" scope="foreground">точка росы</string>
-	<string id="Visibility" scope="foreground">видимость</string>
-	<string id="Empty" scope="foreground">пусто</string>
-	
 	
 	<string id="ForecastDaily" scope="foreground">прогноз\nдневной</string>
 	<string id="ForecastHourly" scope="foreground">прогноз\nпочасовой</string>

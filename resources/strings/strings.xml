@@ -2,10 +2,6 @@
 	<string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">humidity</string>
 	<string id="Pressure" scope="foreground">pressure</string>
-	<string id="Uvi" scope="foreground">uvi</string>
-	<string id="DewPoint" scope="foreground">dew point</string>
-	<string id="Visibility" scope="foreground">visibility</string>
-	<string id="Empty" scope="foreground">empty</string>
 	
 	
 	<string id="ForecastDaily" scope="foreground">forecast\ndaily</string>

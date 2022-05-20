@@ -57,30 +57,4 @@
 		</settingConfig>
 	</setting>
 
-	<!-- FIELDS -->
-	<setting propertyKey="@Properties.FT0"
-		title="@Strings.FT0">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.Empty</listEntry>
-			<listEntry value="1">@Strings.Humidity</listEntry>
-			<listEntry value="2">@Strings.Pressure</listEntry>
-			<listEntry value="3">@Strings.Uvi</listEntry>
-			<listEntry value="4">@Strings.Visibility</listEntry>
-			<listEntry value="5">@Strings.DewPoint</listEntry>
-		</settingConfig>
-	</setting>
-	
-	<setting propertyKey="@Properties.FT1"
-		title="@Strings.FT1">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.Empty</listEntry>
-			<listEntry value="1">@Strings.Humidity</listEntry>
-			<listEntry value="2">@Strings.Pressure</listEntry>
-			<listEntry value="3">@Strings.Uvi</listEntry>
-			<listEntry value="4">@Strings.Visibility</listEntry>
-			<listEntry value="5">@Strings.DewPoint</listEntry>
-		</settingConfig>
-	</setting>
-	
-	
 </settings>

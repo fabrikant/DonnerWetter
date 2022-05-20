@@ -114,10 +114,7 @@ class CurrentView extends WatchUi.View {
 				WIND_SPEED => data["wind"]["speed"],
 				DESCRIPTION => data["weather"][0]["description"],
 				FIELD_TYPE_HUMIDITY => data["main"]["humidity"],
-				FIELD_TYPE_PRESSURE => data["main"]["pressure"],
-				FIELD_TYPE_UVI => data["uvi"],
-				FIELD_TYPE_VISIBILITY => data["visibility"],
-				FIELD_TYPE_DEW_POINT => data["dew_point"]};
+				FIELD_TYPE_PRESSURE => data["main"]["pressure"]};
 			Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
 			globalCache[STORAGE_KEY_CURRENT] = dict;
 			WatchUi.requestUpdate();
