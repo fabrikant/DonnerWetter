@@ -5,7 +5,7 @@ fileVersion=1
 fontName=Roboto Condensed
 fontFile=
 charSet=0
-fontSize=-20
+fontSize=-40
 aa=1
 scaleH=100
 useSmoothing=1
@@ -54,7 +54,6 @@ invB=0
 outlineThickness=0
 
 # selected chars
-chars=0-0,2,13,32-126,160-383,399,402,416-417,431-432,496,506-511,536-539,567,900-906,908,910-929,931
-chars=932-974,977-978,982,1024-1158,1160-1279,7680-7681,7742-7743,7808-7813,7840-7929
+chars=0-0,2,13,32-126,176,1040-1103
 
 # imported icon images

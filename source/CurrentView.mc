@@ -40,6 +40,8 @@ class CurrentView extends WatchUi.View {
         if (data == null){
         	return;
         }
+        
+        //image
         dc.setColor(Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT);
         var image = Icons.getImage(data[ID], data[ICON], false);
         var halfWidth = dc.getWidth()/2;
@@ -52,8 +54,8 @@ class CurrentView extends WatchUi.View {
        	//description
        	var r = dc.getWidth()/2;
        	var x = r - Math.sqrt(Math.pow(r, 2)-Math.pow(r - y, 2));
-       	dc.drawText(x, y, fontSmall, data[DESCRIPTION], Graphics.TEXT_JUSTIFY_LEFT);
-       	y += dc.getFontHeight(fontSmall);
+       	dc.drawText(x, y, Graphics.FONT_SYSTEM_TINY, data[DESCRIPTION], Graphics.TEXT_JUSTIFY_LEFT);
+       	y += dc.getFontHeight(Graphics.FONT_SYSTEM_TINY);
        	
        	//temperature
        	var temp = data[TEMP];

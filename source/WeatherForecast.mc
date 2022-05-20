@@ -13,14 +13,6 @@ class WeatherForecast {
 
 	function startRequest(type, callback){
 	
-		var lat = Tools.getProperty("Lat");
-		var lon = Tools.getProperty("Lon");
-		var appid = Tools.getProperty("keyOW");
-		
-//		var exclude = "current,minutely,hourly,daily";
-//		exclude = Tools.stringReplace(exclude, type, "");
-//		exclude = Tools.stringReplace(exclude, ",,", ",");
-		
 		var exclude = "current,minutely,hourly,daily";
 		if (type == STORAGE_KEY_DAILY){
 			exclude = "current,minutely,hourly";
@@ -35,9 +27,9 @@ class WeatherForecast {
 		
 		var url = "https://api.openweathermap.org/data/2.5/onecall";
 		var parametres = {
-			"lat" => lat,
-			"lon" => lon,
-			"appid" => appid,
+			"lat" => Tools.getProperty("Lat"),
+			"lon" => Tools.getProperty("Lon"),
+			"appid" => Tools.getProperty("keyOW"),
 			"units" => units,
 			"exclude" => exclude,
 			"lang" => getLang()
@@ -50,19 +42,15 @@ class WeatherForecast {
 	
 	function startRequestCurrent(callback) {
 
-		var lat = Tools.getProperty("Lat");
-		var lon = Tools.getProperty("Lon");
-		var appid = Tools.getProperty("keyOW");
-
 		var url = "https://api.openweathermap.org/data/2.5/weather";
 		var units = "metric";
 		if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
 			units = "imperial";
 		}
 		var parametres =	{
-			"lat" => lat,
-			"lon" => lon,
-			"appid" => appid,
+			"lat" => Tools.getProperty("Lat"),
+			"lon" => Tools.getProperty("Lon"),
+			"appid" => Tools.getProperty("keyOW"),
 			"units" => units,
 			"lang" => getLang()				
 		};
