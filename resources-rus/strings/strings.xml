@@ -1,9 +1,6 @@
 <strings>
     <string id="AppName">Wind speed is matters</string>
-	<string id="Humidity" scope="foreground">влажность</string>
-	<string id="Sunrise" scope="foreground">восход</string>
-	<string id="Sunset" scope="foreground">заход</string>
-	<string id="SunEvent" scope="foreground">ближайший восход/заход солнца</string>
+	<string id="Humidity" scope="foreground">влажн.</string>
 	<string id="Pressure" scope="foreground">давление</string>
 	<string id="Uvi" scope="foreground">у-фиол</string>
 	<string id="DewPoint" scope="foreground">точка росы</string>

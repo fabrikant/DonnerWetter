@@ -104,9 +104,10 @@ class WeatherMenuItemDaily extends WeatherMenuItem{
 		
 		//Wind speed
 		var wSpeed = Tools.windSpeedConvert(data[WIND_SPEED]);
-		var tmp = wSpeed[:valueString]+" "+wSpeed[:unit];
+		//var tmp = wSpeed[:valueString]+" "+wSpeed[:unit];
 		
-		dc.drawText(x+(dc.getWidth()-x)/2, Graphics.getFontHeight(fontMed), fontSmall,tmp, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x+(dc.getWidth()-x)/2, Graphics.getFontHeight(fontMed), fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x+(dc.getWidth()-x)/2, Graphics.getFontHeight(fontMed)+Graphics.getFontHeight(fontSmall), fontSmall,wSpeed[:unit], Graphics.TEXT_JUSTIFY_CENTER);
 		border(dc);
 	}
 	

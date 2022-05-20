@@ -1,9 +1,6 @@
 <strings>
 	<string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">humidity</string>
-	<string id="Sunrise" scope="foreground">sunrise</string>
-	<string id="Sunset" scope="foreground">sunset</string>
-	<string id="SunEvent" scope="foreground">sun event</string>
 	<string id="Pressure" scope="foreground">pressure</string>
 	<string id="Uvi" scope="foreground">uvi</string>
 	<string id="DewPoint" scope="foreground">dew point</string>
@@ -28,8 +25,8 @@
 	<!--USE VERY!!!! SHOT STRING. its displayed on screen-->
 	<string id="WindSpeedUnit" scope="foreground">Speed unit</string>
 	
-	<string id="SpeedUnitMSec" scope="glance">m/s</string>
-	<string id="SpeedUnitKmH" scope="glance">km/h</string>
+	<string id="SpeedUnitMSec" scope="glance">mps</string>
+	<string id="SpeedUnitKmH" scope="glance">kmph</string>
 	<string id="SpeedUnitMileH" scope="glance">mph</string>
 	<string id="SpeedUnitFtSec" scope="glance">fps</string>
 	<string id="SpeedUnitBof" scope="glance">bouf</string>

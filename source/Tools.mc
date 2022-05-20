@@ -290,11 +290,11 @@ module Tools {
 			unitName = Application.loadResource(Rez.Strings.SpeedUnitMSec);
 		}else if (unit == 1){ /*km/h*/
 			value = rawData*3.6;
-			valueString = value.format("%.1f");
+			valueString = value.format("%d");
 			unitName = Application.loadResource(Rez.Strings.SpeedUnitKmH);
 		}else if (unit == 2){ /*mile/h*/
 			value = rawData*2.237;
-			valueString = value.format("%.1f");
+			valueString = value.format("%d");
 			unitName = Application.loadResource(Rez.Strings.SpeedUnitMileH);
 		}else if (unit == 3){ /*ft/s*/
 			value = rawData*3.281;

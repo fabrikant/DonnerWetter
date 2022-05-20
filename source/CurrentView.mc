@@ -64,21 +64,27 @@ class CurrentView extends WatchUi.View {
        	
        	dc.drawText(halfWidth/2, y, fontMed,temp.format("%d")+"°"+unit, Graphics.TEXT_JUSTIFY_CENTER);
         
+        //Wind direction
         var h = dc.getFontHeight(fontMed);
        	var wind = new WindDirectionField({:x => halfWidth, :y => y, :h => h, :w => h, :color => Tools.getWindColor(data[WIND_SPEED])});
        	wind.draw(dc, data[WIND_DEG]);
        	
+       	//wind speed
        	var wSpeed = Tools.windSpeedConvert(data[WIND_SPEED]);
        	x = dc.getWidth()- 5 - Tools.max(dc.getTextWidthInPixels(wSpeed[:valueString], fontSmall), dc.getTextWidthInPixels(wSpeed[:unit], fontSmall));
-       	dc.drawText(x, y, fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_LEFT);
-       	dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(x, y, fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_LEFT);
+		
+//		dc.drawText(dc.getWidth()-10, y, fontSmall, wSpeed[:valueString]+" "+wSpeed[:unit], Graphics.TEXT_JUSTIFY_RIGHT);
        	
-       	y += h;
+       	//decoration
+       	y += Tools.max(h, dc.getFontHeight(fontSmall)*2);
        	dc.setColor(Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT);
        	dc.drawLine(0, y, dc.getWidth(), y);
        	x = dc.getWidth()/2;
        	dc.drawLine(x, y, x, dc.getHeight());
        	
+       	//data fields
        	var offset = 5;
        	var field = Tools.getValueByFieldType(Application.Properties.getValue("FT0"), data);
        	dc.drawText(x-offset, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_RIGHT);

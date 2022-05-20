@@ -85,8 +85,14 @@ class WeatherMenuItemHourly extends WeatherMenuItem{
 		
 		//Wind speed
 		var wSpeed = Tools.windSpeedConvert(data[WIND_SPEED]);
-		var wSpeedString = Lang.format("$1$ $2$", [wSpeed[:valueString], wSpeed[:unit]]);
-		dc.drawText(x, dc.getHeight()-Graphics.getFontHeight(fontSmall), fontSmall, wSpeedString, Graphics.TEXT_JUSTIFY_LEFT);
+		//var wSpeedString = Lang.format("$1$ $2$", [wSpeed[:valueString], wSpeed[:unit]]);
+		var wSpeedString = wSpeed[:valueString];
+		var wSpeedStringW = dc.getTextWidthInPixels(wSpeedString, fontSmall);
+		if (wSpeedStringW > dc.getWidth()-x){
+			dc.drawText(dc.getWidth(), dc.getHeight()-Graphics.getFontHeight(fontSmall), fontSmall, wSpeedString, Graphics.TEXT_JUSTIFY_RIGHT);
+		}else{
+			dc.drawText(x, dc.getHeight()-Graphics.getFontHeight(fontSmall), fontSmall, wSpeedString, Graphics.TEXT_JUSTIFY_LEFT);
+		}
 		
 		border(dc);
 	}
