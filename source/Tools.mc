@@ -30,8 +30,8 @@ enum{
 }
 
 (:glance)
-module Tools {
-	
+module GlanceTools{
+
 	function getBackgroundColor(){
 		if (Application.Properties.getValue("Theme") == 0){
 			return Graphics.COLOR_WHITE;
@@ -46,6 +46,18 @@ module Tools {
 		}else{
 			return Graphics.COLOR_WHITE;
 		}
+	}
+
+}
+
+module Tools {
+	
+	function getBackgroundColor(){
+		return GlanceTools.getBackgroundColor();
+	}
+	
+	function getForegroundColor(){
+		return GlanceTools.getForegroundColor();
 	}
 
 	function getValueByFieldType(type, data){

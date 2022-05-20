@@ -28,7 +28,7 @@ module Icons{
 				:height => _bitmap.getHeight()
 			});
 			var _bufferedBitmap = _bufferedBitmapRef.get(); 
-			_bufferedBitmap.setPalette([Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT]);
+			_bufferedBitmap.setPalette([GlanceTools.getForegroundColor(), Graphics.COLOR_TRANSPARENT]);
 			return _bufferedBitmap;
 		}else{
 			var _bufferedBitmap = new Graphics.BufferedBitmap({
@@ -36,7 +36,7 @@ module Icons{
 				:width => _bitmap.getWidth(),
 				:height => _bitmap.getHeight()
 			});
-			_bufferedBitmap.setPalette([Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT]);
+			_bufferedBitmap.setPalette([GlanceTools.getForegroundColor(), Graphics.COLOR_TRANSPARENT]);
 			return _bufferedBitmap;
 		}
 	}

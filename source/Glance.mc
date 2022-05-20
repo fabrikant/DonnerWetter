@@ -11,13 +11,14 @@ class WeatherGlanceView extends WatchUi.GlanceView {
 	}
 
     function onShow() {
-    	//weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate)); 
+    	var weatherForecast = new WeatherForecast();
+    	weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate)); 
     }
 
 	function onUpdate(dc) {
         
-		var bColor = Tools.getBackgroundColor();
-        var fColor = Tools.getForegroundColor();
+		var bColor = GlanceTools.getBackgroundColor();
+        var fColor = GlanceTools.getForegroundColor();
         
 		dc.setColor(bColor, bColor);
 		dc.clear();
@@ -56,24 +57,23 @@ class WeatherGlanceView extends WatchUi.GlanceView {
 		return temp.format("%d")+"°"+unit;
 	}
 
-//	function onWeatherUpdate(code, data){
-//		if (code == 200){
-//			var dict ={
-//				ID => data["weather"][0]["id"],
-//				ICON => data["weather"][0]["icon"],
-//				TEMP => data["main"]["temp"],
-//				WIND_DEG => data["wind"]["deg"],
-//				WIND_SPEED => data["wind"]["speed"],
-//				DESCRIPTION => data["weather"][0]["description"],
-//				FIELD_TYPE_HUMIDITY => data["main"]["humidity"],
-//				FIELD_TYPE_PRESSURE => data["main"]["pressure"],
-//				FIELD_TYPE_UVI => data["uvi"],
-//				FIELD_TYPE_VISIBILITY => data["visibility"],
-//				FIELD_TYPE_DEW_POINT => data["dew_point"]};
-//			Tools.setStorage(storageKey, dict);
-//			globalCache[storageKey] = dict;
-//			WatchUi.requestUpdate();
-//		}
-//	}
+	function onWeatherUpdate(code, data){
+		if (code == 200){
+			var dict ={
+				ID => data["weather"][0]["id"],
+				ICON => data["weather"][0]["icon"],
+				TEMP => data["main"]["temp"],
+				WIND_DEG => data["wind"]["deg"],
+				WIND_SPEED => data["wind"]["speed"],
+				DESCRIPTION => data["weather"][0]["description"],
+				FIELD_TYPE_HUMIDITY => data["main"]["humidity"],
+				FIELD_TYPE_PRESSURE => data["main"]["pressure"],
+				FIELD_TYPE_UVI => data["uvi"],
+				FIELD_TYPE_VISIBILITY => data["visibility"],
+				FIELD_TYPE_DEW_POINT => data["dew_point"]};
+			Application.Properties.setValue(STORAGE_KEY_CURRENT, dict);
+			WatchUi.requestUpdate();
+		}
+	}
 	
 }

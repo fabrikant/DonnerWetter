@@ -6,14 +6,10 @@ using Toybox.Time;
 
 class CurrentView extends WatchUi.View {
 
-	var storageKey;
-	var weatherForecast;
-	
-    function initialize(key) {
+    function initialize() {
     	fontSmall = Application.loadResource(Rez.Fonts.small);
     	fontMed = Application.loadResource(Rez.Fonts.medium);
     	
-    	storageKey = key;
         View.initialize();
     }
 
@@ -29,14 +25,14 @@ class CurrentView extends WatchUi.View {
 				Tools.setProperty("Lon", lon);
 			}
 		}
-       	weatherForecast = new WeatherForecast();
+       	var weatherForecast = new WeatherForecast();
 		weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate));    	
     }
     
     function onUpdate(dc) {
         dc.setColor(Tools.getBackgroundColor(), Tools.getBackgroundColor());
         dc.clear();
-        var data = Tools.getStorage(storageKey, null);
+        var data = Tools.getStorage(STORAGE_KEY_CURRENT, null);
         if (data == null){
         	return;
         }
@@ -108,8 +104,8 @@ class CurrentView extends WatchUi.View {
 				FIELD_TYPE_UVI => data["uvi"],
 				FIELD_TYPE_VISIBILITY => data["visibility"],
 				FIELD_TYPE_DEW_POINT => data["dew_point"]};
-			Tools.setStorage(storageKey, dict);
-			globalCache[storageKey] = dict;
+			Tools.setStorage(STORAGE_KEY_CURRENT, dict);
+			globalCache[STORAGE_KEY_CURRENT] = dict;
 			WatchUi.requestUpdate();
 		}
 	}

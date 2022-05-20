@@ -4,7 +4,7 @@ using Toybox.System;
 using Toybox.Position;
 using Toybox.Time;
 
-
+(:glance)
 class WeatherForecast {
 	
 	
@@ -27,9 +27,9 @@ class WeatherForecast {
 		
 		var url = "https://api.openweathermap.org/data/2.5/onecall";
 		var parametres = {
-			"lat" => Tools.getProperty("Lat"),
-			"lon" => Tools.getProperty("Lon"),
-			"appid" => Tools.getProperty("keyOW"),
+			"lat" => Application.Properties.getValue("Lat"),
+			"lon" => Application.Properties.getValue("Lon"),
+			"appid" => Application.Properties.getValue("keyOW"),
 			"units" => units,
 			"exclude" => exclude,
 			"lang" => getLang()
@@ -48,9 +48,9 @@ class WeatherForecast {
 			units = "imperial";
 		}
 		var parametres =	{
-			"lat" => Tools.getProperty("Lat"),
-			"lon" => Tools.getProperty("Lon"),
-			"appid" => Tools.getProperty("keyOW"),
+			"lat" => Application.Properties.getValue("Lat"),
+			"lon" => Application.Properties.getValue("Lon"),
+			"appid" => Application.Properties.getValue("keyOW"),
 			"units" => units,
 			"lang" => getLang()				
 		};

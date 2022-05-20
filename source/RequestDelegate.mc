@@ -1,6 +1,7 @@
 using Toybox.Communications;
 using Toybox.System;
 
+(:glance)
 class RequestDelegate
 {
     hidden var callback; // function always takes 3 arguments

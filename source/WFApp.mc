@@ -14,6 +14,7 @@ class WFApp extends Application.AppBase {
     }
 	
 	function getGlanceView() {
+		globalCache = {};
         return [ new WeatherGlanceView() ];
     }
     
@@ -30,7 +31,7 @@ class WFApp extends Application.AppBase {
     	if (Tools.getProperty("Lat").equals(0.0) || Tools.getProperty("Lon").equals(0.0) || Tools.getProperty("keyOW").equals("")){
     		return [ new EmptyView(), new ExitOnSelectDelegate() ];
     	}else{
-        	return [ new CurrentView(STORAGE_KEY_CURRENT), new CurrenInputDelegate() ];
+        	return [ new CurrentView(), new CurrenInputDelegate() ];
         }
     }
     
