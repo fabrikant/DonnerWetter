@@ -45,7 +45,7 @@ class WeatherGlanceView extends WatchUi.GlanceView {
 			dc.drawBitmap(x, y, image);
 			x += image.getDc().getWidth()+interval;
 		}
-		dc.drawText(x, dc.getHeight()/2, Graphics.FONT_GLANCE_NUMBER, getTemperature(data[TEMP]), Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+		dc.drawText(x, dc.getHeight()/2, Graphics.FONT_GLANCE, getTemperature(data[TEMP]), Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 		
 	}
 	
