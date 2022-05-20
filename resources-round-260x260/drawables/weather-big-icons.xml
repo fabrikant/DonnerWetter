@@ -1,0 +1,624 @@
+<drawables>
+
+	<bitmap id="Big_NA" filename="../../resources/drawables/png-90/999-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<!-- Cloud -->
+	<bitmap id="Big_800d" filename="../../resources/drawables/png-90/100-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_800n" filename="../../resources/drawables/png-90/150-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_801d" filename="../../resources/drawables/png-90/102-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_801n" filename="../../resources/drawables/png-90/152-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_802d" filename="../../resources/drawables/png-90/103-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_802n" filename="../../resources/drawables/png-90/153-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_803d" filename="../../resources/drawables/png-90/101-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_803n" filename="../../resources/drawables/png-90/151-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_804d" filename="../../resources/drawables/png-90/104-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_804n" filename="../../resources/drawables/png-90/104-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+	<!-- Thunderstorm -->
+	<bitmap id="Big_200d" filename="../../resources/drawables/png-90/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_200n" filename="../../resources/drawables/png-90/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_201d" filename="../../resources/drawables/png-90/302-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_201n" filename="../../resources/drawables/png-90/302-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_202d" filename="../../resources/drawables/png-90/303-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_202n" filename="../../resources/drawables/png-90/303-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_210d" filename="../../resources/drawables/png-90/1043.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_210n" filename="../../resources/drawables/png-90/1043.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_211d" filename="../../resources/drawables/png-90/2015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_211n" filename="../../resources/drawables/png-90/2015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_212d" filename="../../resources/drawables/png-90/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_212n" filename="../../resources/drawables/png-90/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_221d" filename="../../resources/drawables/png-90/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_221n" filename="../../resources/drawables/png-90/1014.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_230d" filename="../../resources/drawables/png-90/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_230n" filename="../../resources/drawables/png-90/304-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_231d" filename="../../resources/drawables/png-90/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_231n" filename="../../resources/drawables/png-90/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_232d" filename="../../resources/drawables/png-90/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_232n" filename="../../resources/drawables/png-90/2024.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+ 	<!-- Drizzle -->
+ 	<bitmap id="Big_300d" filename="../../resources/drawables/png-90/309-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_300n" filename="../../resources/drawables/png-90/309-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_301d" filename="../../resources/drawables/png-90/312-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_301n" filename="../../resources/drawables/png-90/312-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_302d" filename="../../resources/drawables/png-90/1035.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_302n" filename="../../resources/drawables/png-90/1035.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_310d" filename="../../resources/drawables/png-90/314-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_310n" filename="../../resources/drawables/png-90/314-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<bitmap id="Big_311d" filename="../../resources/drawables/png-90/315-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_311n" filename="../../resources/drawables/png-90/315-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_312d" filename="../../resources/drawables/png-90/316-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_312n" filename="../../resources/drawables/png-90/316-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_313d" filename="../../resources/drawables/png-90/317-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_313n" filename="../../resources/drawables/png-90/317-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+ 	<bitmap id="Big_314d" filename="../../resources/drawables/png-90/318-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_314n" filename="../../resources/drawables/png-90/318-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+  	<bitmap id="Big_321d" filename="../../resources/drawables/png-90/308-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_321n" filename="../../resources/drawables/png-90/308-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+
+	<!-- Rain -->
+   	<bitmap id="Big_500d" filename="../../resources/drawables/png-90/300-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_500n" filename="../../resources/drawables/png-90/350-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+ 
+  	<bitmap id="Big_501d" filename="../../resources/drawables/png-90/300-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_501n" filename="../../resources/drawables/png-90/350-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_502d" filename="../../resources/drawables/png-90/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_502n" filename="../../resources/drawables/png-90/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_503d" filename="../../resources/drawables/png-90/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_503n" filename="../../resources/drawables/png-90/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_504d" filename="../../resources/drawables/png-90/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_504n" filename="../../resources/drawables/png-90/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_511d" filename="../../resources/drawables/png-90/1015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_511n" filename="../../resources/drawables/png-90/1015.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_520d" filename="../../resources/drawables/png-90/305.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_520n" filename="../../resources/drawables/png-90/305.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_521d" filename="../../resources/drawables/png-90/306.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_521n" filename="../../resources/drawables/png-90/306.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_522d" filename="../../resources/drawables/png-90/307.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_522n" filename="../../resources/drawables/png-90/307.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_531d" filename="../../resources/drawables/png-90/301-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_531n" filename="../../resources/drawables/png-90/351-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	
+	<!-- Snow -->
+   	<bitmap id="Big_600d" filename="../../resources/drawables/png-90/407-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_600n" filename="../../resources/drawables/png-90/457-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_601d" filename="../../resources/drawables/png-90/400-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_601n" filename="../../resources/drawables/png-90/400-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_602d" filename="../../resources/drawables/png-90/401-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_602n" filename="../../resources/drawables/png-90/401-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_611d" filename="../../resources/drawables/png-90/408-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_611n" filename="../../resources/drawables/png-90/408-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_612d" filename="../../resources/drawables/png-90/409-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_612n" filename="../../resources/drawables/png-90/409-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_613d" filename="../../resources/drawables/png-90/410-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_613n" filename="../../resources/drawables/png-90/410-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_615d" filename="../../resources/drawables/png-90/406-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_615n" filename="../../resources/drawables/png-90/456-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_616d" filename="../../resources/drawables/png-90/404-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_616n" filename="../../resources/drawables/png-90/404-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_620d" filename="../../resources/drawables/png-90/1033.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_620n" filename="../../resources/drawables/png-90/1033.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_621d" filename="../../resources/drawables/png-90/1004.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_621n" filename="../../resources/drawables/png-90/1004.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+   	<bitmap id="Big_622d" filename="../../resources/drawables/png-90/499-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_622n" filename="../../resources/drawables/png-90/499-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+	<!-- Atmosphere -->
+  	<bitmap id="Big_701d" filename="../../resources/drawables/png-90/501-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_701n" filename="../../resources/drawables/png-90/501-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_711d" filename="../../resources/drawables/png-90/smoke.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_711n" filename="../../resources/drawables/png-90/smoke.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_721d" filename="../../resources/drawables/png-90/502-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_721n" filename="../../resources/drawables/png-90/502-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_731d" filename="../../resources/drawables/png-90/2010.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_731n" filename="../../resources/drawables/png-90/2010.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_741d" filename="../../resources/drawables/png-90/1017.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_741n" filename="../../resources/drawables/png-90/1017.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_751d" filename="../../resources/drawables/png-90/1051.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_751n" filename="../../resources/drawables/png-90/1051.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_761d" filename="../../resources/drawables/png-90/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_761n" filename="../../resources/drawables/png-90/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_762d" filename="../../resources/drawables/png-90/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_762n" filename="../../resources/drawables/png-90/504-fill.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_771d" filename="../../resources/drawables/png-90/1602.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_771n" filename="../../resources/drawables/png-90/1602.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	
+  	<bitmap id="Big_781d" filename="../../resources/drawables/png-90/1002.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_781n" filename="../../resources/drawables/png-90/1002.png" >
+		<palette disableTransparency="false">
+		     <color>555555</color>
+		</palette>
+	</bitmap>
+
+</drawables>

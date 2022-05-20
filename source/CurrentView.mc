@@ -71,28 +71,36 @@ class CurrentView extends WatchUi.View {
        	
        	//wind speed
        	var wSpeed = Tools.windSpeedConvert(data[WIND_SPEED]);
-       	x = dc.getWidth()- 5 - Tools.max(dc.getTextWidthInPixels(wSpeed[:valueString], fontSmall), dc.getTextWidthInPixels(wSpeed[:unit], fontSmall));
-		dc.drawText(x, y, fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_LEFT);
+       	var textW = Tools.max(dc.getTextWidthInPixels(wSpeed[:valueString], fontSmall), dc.getTextWidthInPixels(wSpeed[:unit], fontSmall));
+       	var freeSpace = dc.getWidth()-halfWidth-h;
+       	if(textW>freeSpace){
+	       	x = dc.getWidth()- textW -5 ;
+			dc.drawText(x, y, fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_LEFT);
+		}else{
+	       	x = halfWidth+h+freeSpace/2 ;
+			dc.drawText(x, y, fontSmall,wSpeed[:valueString], Graphics.TEXT_JUSTIFY_CENTER);
+			dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_CENTER);
 		
+		}
 //		dc.drawText(dc.getWidth()-10, y, fontSmall, wSpeed[:valueString]+" "+wSpeed[:unit], Graphics.TEXT_JUSTIFY_RIGHT);
        	
        	//decoration
        	y += Tools.max(h, dc.getFontHeight(fontSmall)*2);
        	dc.setColor(Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT);
        	dc.drawLine(0, y, dc.getWidth(), y);
-       	x = dc.getWidth()/2;
+       	x = dc.getWidth()/2-0.5;
        	dc.drawLine(x, y, x, dc.getHeight());
        	
        	//data fields
        	var offset = 5;
        	var field = Tools.getValueByFieldType(Application.Properties.getValue("FT0"), data);
-       	dc.drawText(x-offset, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_RIGHT);
-       	dc.drawText(x-offset, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_RIGHT);
+       	dc.drawText(x-offset-0.5, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_RIGHT);
+       	dc.drawText(x-offset-0.5, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_RIGHT);
        	 
 		field = Tools.getValueByFieldType(Application.Properties.getValue("FT1"), data);
-       	dc.drawText(x+offset, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_LEFT);
-       	dc.drawText(x+offset, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(x+offset-0.5, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(x+offset-0.5, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_LEFT);
        	 
     }
 	
