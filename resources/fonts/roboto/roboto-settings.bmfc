@@ -2,14 +2,14 @@
 fileVersion=1
 
 # font settings
-fontName=Roboto Black
+fontName=Roboto Condensed
 fontFile=
 charSet=0
-fontSize=-50
+fontSize=-20
 aa=1
 scaleH=100
 useSmoothing=1
-isBold=0
+isBold=1
 isItalic=0
 useUnicode=1
 disableBoxChars=1
@@ -54,6 +54,6 @@ invB=0
 outlineThickness=0
 
 # selected chars
-chars=0-0,2,13,32-126,176,192-383,1024-1158,1160-1279
+chars=0-0,2,13,32-126,176,192-383,1040-1103
 
 # imported icon images
