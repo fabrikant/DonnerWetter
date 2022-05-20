@@ -21,8 +21,8 @@ class CurrentView extends WatchUi.View {
 			var lat = location[0].toFloat();
 			var lon = location[1].toFloat();
 			if (!lat.equals(0.0) && !lon.equals(0.0)){
-				Tools.setProperty("Lat", lat);
-				Tools.setProperty("Lon", lon);
+				Application.Properties.setValue("Lat", lat);
+				Application.Properties.setValue("Lon", lon);
 			}
 		}
        	var weatherForecast = new WeatherForecast();
@@ -110,7 +110,7 @@ class CurrentView extends WatchUi.View {
 				FIELD_TYPE_UVI => data["uvi"],
 				FIELD_TYPE_VISIBILITY => data["visibility"],
 				FIELD_TYPE_DEW_POINT => data["dew_point"]};
-			Tools.setStorage(STORAGE_KEY_CURRENT, dict);
+			Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
 			globalCache[STORAGE_KEY_CURRENT] = dict;
 			WatchUi.requestUpdate();
 		}

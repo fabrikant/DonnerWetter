@@ -28,7 +28,7 @@ class WFApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-    	if (Tools.getProperty("Lat").equals(0.0) || Tools.getProperty("Lon").equals(0.0) || Tools.getProperty("keyOW").equals("")){
+    	if (Application.Properties.getValue("Lat").equals(0.0) || Application.Properties.getValue("Lon").equals(0.0) || Application.Properties.getValue("keyOW").equals("")){
     		return [ new EmptyView(), new ExitOnSelectDelegate() ];
     	}else{
         	return [ new CurrentView(), new CurrenInputDelegate() ];

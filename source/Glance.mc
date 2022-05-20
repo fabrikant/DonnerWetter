@@ -71,7 +71,7 @@ class WeatherGlanceView extends WatchUi.GlanceView {
 				FIELD_TYPE_UVI => data["uvi"],
 				FIELD_TYPE_VISIBILITY => data["visibility"],
 				FIELD_TYPE_DEW_POINT => data["dew_point"]};
-			Application.Properties.setValue(STORAGE_KEY_CURRENT, dict);
+			Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
 			WatchUi.requestUpdate();
 		}
 	}

@@ -58,7 +58,7 @@ class WeatherMenu extends WatchUi.CustomMenu{
 						DATE => owmArray[i]["dt"]});
 				}
 			}
-			Tools.setStorage(storageKey, dataArray);
+			Application.Storage.setValue(storageKey, dataArray);
 			globalCache[storageKey] = dataArray;
 			addItems();
 			WatchUi.requestUpdate();

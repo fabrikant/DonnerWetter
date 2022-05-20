@@ -14,12 +14,12 @@ class WeatherMenuHourly extends WeatherMenu{
 	}
 
 	function addItems(){
-		var data = Application.Storage.getValue(storageKey);
+		var data = Tools.getStorage(storageKey, null);
 		var dataSize = 1;
 		if (data != null){
 			dataSize = data.size();
 		}
-		var interval = Tools.getProperty("HourlyIntrval");
+		var interval = Application.Properties.getValue("HourlyIntrval");
 		for (var i = itemsCount; i < dataSize; i+=interval){
 			itemsCount = i+1;
 			addItem(new WeatherMenuItemHourly(i, storageKey, self));

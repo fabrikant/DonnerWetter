@@ -93,7 +93,7 @@ module Tools {
 	function pressureToString(rawData){
 		rawData *= 100; 
 		var value = rawData; /*Pa */
-		var unit  = Tools.getProperty("PressureUnit");
+		var unit  = Application.Properties.getValue("PressureUnit");
 		if (unit == 0){ /*MmHg*/
 			value = Math.round(rawData/133.322).format("%d");
 		}else if (unit == 1){ /*Psi*/
@@ -122,23 +122,6 @@ module Tools {
     		return currentValue;
     	}
     }
-
-	///////////////////////////////////////////////////////////////////////////
-    function setStorage(key, value){
-    	Application.Storage.setValue(key, value);
-    }
-
-	///////////////////////////////////////////////////////////////////////////
-	function getProperty(key){
-    	return Application.Properties.getValue(key);
-
-	}
-
-	///////////////////////////////////////////////////////////////////////////
-	function setProperty(key, value){
-    	return Application.Properties.setValue(key, value);
-
-	}
 
 	///////////////////////////////////////////////////////////////////////////
 	function dictToReadable(dict){
@@ -249,12 +232,6 @@ module Tools {
 			:height => 0});
 	}
 
-	///////////////////////////////////////////////////////////////////////////
-	function saveWeatherData(storageKey, data){
-		setStorage(storageKey, data[storageKey]);
-		setStorage("timezone_offset", data["timezone_offset"]);
-	}
-	
 	///////////////////////////////////////////////////////////////////////////
 	function max(a,b){
 		if (a > b){

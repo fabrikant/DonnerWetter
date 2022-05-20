@@ -27,8 +27,8 @@ class EmptyView extends WatchUi.View{
 		var gpsStatus = "\n"+"gps: "+ (gpsOn ? "on":"off");
 		 
 		var message = gpsStatus
-			+ "\nlat: "+Tools.getProperty("Lat")+"\nlon: "+Tools.getProperty("Lon")
-			+ "\nkey:\n"+Tools.getProperty("keyOW")+"\n";
+			+ "\nlat: "+Application.Properties.getValue("Lat")+"\nlon: "+Application.Properties.getValue("Lon")
+			+ "\nkey:\n"+Application.Properties.getValue("keyOW")+"\n";
 		dc.setColor(Tools.getBackgroundColor(), Graphics.COLOR_WHITE);
 		dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 		dc.setColor(Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT);
@@ -42,8 +42,8 @@ class EmptyView extends WatchUi.View{
        	var location = Activity.getActivityInfo().currentLocation;
     	if (location != null) {
 			location = location.toDegrees();
-			Tools.setProperty("Lat", location[0].toFloat());
-			Tools.setProperty("Lon", location[1].toFloat());
+			Application.Properties.setValue("Lat", location[0].toFloat());
+			Application.Properties.setValue("Lon", location[1].toFloat());
 			WatchUi.requestUpdate();
 		}
     }
@@ -51,8 +51,8 @@ class EmptyView extends WatchUi.View{
     function onPosition(info) {
     	gpsOn = false;
 	    var location = info.position.toDegrees();
-		Tools.setProperty("Lat", location[0].toFloat());
-		Tools.setProperty("Lon", location[1].toFloat());
+		Application.Properties.setValue("Lat", location[0].toFloat());
+		Application.Properties.setValue("Lon", location[1].toFloat());
 		WatchUi.requestUpdate();
 	}
 	

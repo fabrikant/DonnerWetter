@@ -12,8 +12,7 @@ class WeatherMenuDaily extends WeatherMenu{
 	}
 
 	function addItems(){
-		//var data = Tools.getStorage(storageKey, null);
-		var data = Application.Storage.getValue(storageKey);
+		var data = Tools.getStorage(storageKey, null);
 		var dataSize = 1;
 		if (data != null){
 			dataSize = data.size();
