@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">Wind speed is matters</string>
+    <string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">влажн.</string>
 	<string id="Pressure" scope="foreground">давление</string>
 	<string id="Uvi" scope="foreground">у-фиол</string>
