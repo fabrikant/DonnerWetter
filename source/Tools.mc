@@ -24,12 +24,9 @@ enum{
 	DATE,
 	DESCRIPTION,
 	
-	
-	//TIME_OFFSET_KEY = "timezone_offset",
-	STORAGE_KEY_GLANCE="Gl",
-	STORAGE_KEY_CURRENT = "current",
-	STORAGE_KEY_DAILY = "daily",
-	STORAGE_KEY_HOURLY = "hourly"
+	STORAGE_KEY_CURRENT,
+	STORAGE_KEY_DAILY,
+	STORAGE_KEY_HOURLY,
 }
 
 (:glance)

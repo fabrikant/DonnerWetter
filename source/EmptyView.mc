@@ -27,8 +27,8 @@ class EmptyView extends WatchUi.View{
 		var gpsStatus = "\n"+"gps: "+ (gpsOn ? "on":"off");
 		 
 		var message = gpsStatus
-			+ "\nlat: "+weatherForecast.lat+"\nlon: "+weatherForecast.lon
-			+ "\nkey:\n"+weatherForecast.appid+"\n";
+			+ "\nlat: "+Tools.getProperty("Lat")+"\nlon: "+Tools.getProperty("Lon")
+			+ "\nkey:\n"+Tools.getProperty("keyOW")+"\n";
 		dc.setColor(Tools.getBackgroundColor(), Graphics.COLOR_WHITE);
 		dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 		dc.setColor(Tools.getForegroundColor(), Graphics.COLOR_TRANSPARENT);
@@ -44,7 +44,6 @@ class EmptyView extends WatchUi.View{
 			location = location.toDegrees();
 			Tools.setProperty("Lat", location[0].toFloat());
 			Tools.setProperty("Lon", location[1].toFloat());
-			weatherForecast.setCoord();
 			WatchUi.requestUpdate();
 		}
     }
@@ -54,7 +53,6 @@ class EmptyView extends WatchUi.View{
 	    var location = info.position.toDegrees();
 		Tools.setProperty("Lat", location[0].toFloat());
 		Tools.setProperty("Lon", location[1].toFloat());
-		weatherForecast.setCoord();
 		WatchUi.requestUpdate();
 	}
 	

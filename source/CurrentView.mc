@@ -20,7 +20,6 @@ class CurrentView extends WatchUi.View {
      function onShow() {
      
        	var location = Activity.getActivityInfo().currentLocation;
-       	weatherForecast = new WeatherForecast();
     	if (location != null) {
 			location = location.toDegrees();
 			var lat = location[0].toFloat();
@@ -28,9 +27,9 @@ class CurrentView extends WatchUi.View {
 			if (!lat.equals(0.0) && !lon.equals(0.0)){
 				Tools.setProperty("Lat", lat);
 				Tools.setProperty("Lon", lon);
-				weatherForecast.setCoord();
 			}
 		}
+       	weatherForecast = new WeatherForecast();
 		weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate));    	
     }
     

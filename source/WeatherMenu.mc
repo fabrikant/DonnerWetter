@@ -32,9 +32,9 @@ class WeatherMenu extends WatchUi.CustomMenu{
 	
 	function onWeatherUpdate(code, data){
 		if (code == 200){
-			var owmArray = data[storageKey];
 			var dataArray = [];
-			if (storageKey.equals(STORAGE_KEY_DAILY)){
+			if (storageKey == STORAGE_KEY_DAILY){
+				var owmArray = data["daily"];
 				for(var i = 0; i<owmArray.size(); i++){
 					dataArray.add({
 						ID => owmArray[i]["weather"][0]["id"],
@@ -47,6 +47,7 @@ class WeatherMenu extends WatchUi.CustomMenu{
 						DATE => owmArray[i]["dt"]});
 				}
 			}else{
+				var owmArray = data["hourly"];
 				for(var i = 0; i<owmArray.size(); i++){
 					dataArray.add({
 						ID => owmArray[i]["weather"][0]["id"],
@@ -64,57 +65,6 @@ class WeatherMenu extends WatchUi.CustomMenu{
 		}
 	}
 	
-//	///////////////////////////////////////////////////////////////////////////
-//	function saveDataForGlance(storageKey, data){
-//		
-//		if (data == null){
-//			return;
-//		}
-//		
-//		if ( Toybox.System.DeviceSettings has :isGlanceModeEnabled){
-//			var settings = System.getDeviceSettings();
-//			if (!settings.isGlanceModeEnabled){
-//				return;
-//			}
-//		}else{
-//			return;
-//		} 
-//		 
-//		var glanceStorageKey = storageKey+STORAGE_KEY_GLANCE;
-//		var glanceKeysArray = Tools.getStorage(glanceStorageKey, null);
-//		//remove old data
-//		if (glanceKeysArray != null){
-//			for (var i = 0; i < glanceKeysArray.size(); i++){
-//				Application.Storage.deleteValue(glanceKeysArray[i]);
-//			}
-//			Application.Storage.deleteValue(glanceStorageKey);
-//		}
-//		
-//		if (data[storageKey].size() > 0){
-//			glanceKeysArray = [];
-//			for (var i = 0; i < data[storageKey].size(); i++){
-//				var temp = data[storageKey][i]["temp"];
-//				if (storageKey == STORAGE_KEY_DAILY){
-//					temp = temp["eve"];
-//				}
-//				var value = {
-//					"wind_deg" => data[storageKey][i]["wind_deg"],
-//					"wind_speed" => data[storageKey][i]["wind_speed"],
-//					"temp" => temp,
-//					"icon" => data[storageKey][i]["weather"][0]["icon"]
-//				};
-//				var key = data[storageKey][i]["dt"];
-//				Tools.setStorage(key, value);
-//				glanceKeysArray.add(key);
-//			}
-//			
-//			if (glanceKeysArray.size() > 0){
-//				Tools.setStorage(glanceStorageKey, glanceKeysArray);
-//			}
-//		}
-//		
-//	}
-		
 }
 
 class WeatherMenuItem extends WatchUi.CustomMenuItem{

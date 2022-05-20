@@ -4,21 +4,29 @@ using Toybox.System;
 using Toybox.Position;
 using Toybox.Time;
 
+
 class WeatherForecast {
 	
-	var lat, lon, appid;
 	
 	function initialize() {
-		self.lat = Tools.getProperty("Lat");
-		self.lon = Tools.getProperty("Lon");
-		self.appid = Tools.getProperty("keyOW");
     }
 
 	function startRequest(type, callback){
+	
+		var lat = Tools.getProperty("Lat");
+		var lon = Tools.getProperty("Lon");
+		var appid = Tools.getProperty("keyOW");
+		
+//		var exclude = "current,minutely,hourly,daily";
+//		exclude = Tools.stringReplace(exclude, type, "");
+//		exclude = Tools.stringReplace(exclude, ",,", ",");
 		
 		var exclude = "current,minutely,hourly,daily";
-		exclude = Tools.stringReplace(exclude, type, "");
-		exclude = Tools.stringReplace(exclude, ",,", ",");
+		if (type == STORAGE_KEY_DAILY){
+			exclude = "current,minutely,hourly";
+		}else if (type == STORAGE_KEY_HOURLY){
+			exclude = "current,minutely,daily";
+		}
 		
 		var units = "metric";
 		if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
@@ -42,6 +50,10 @@ class WeatherForecast {
 	
 	function startRequestCurrent(callback) {
 
+		var lat = Tools.getProperty("Lat");
+		var lon = Tools.getProperty("Lon");
+		var appid = Tools.getProperty("keyOW");
+
 		var url = "https://api.openweathermap.org/data/2.5/weather";
 		var units = "metric";
 		if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
@@ -59,11 +71,6 @@ class WeatherForecast {
 	}
 
 
-	function setCoord(){
-		lat = Tools.getProperty("Lat"); 
-		lon = Tools.getProperty("Lon");
-	}
-	
 	function onResponse(code, data, context){
 		context.invoke(code, data);
 	}
