@@ -8,16 +8,10 @@ using Toybox.Position;
 class EmptyView extends WatchUi.View{
 	
 	var gpsOn;
-	var weatherForecast;
 	
 	function initialize() {
 
-//    	Toybox.Application.Properties.setValue("Lat", 54);
-//    	Toybox.Application.Properties.setValue("Lon", 74);
-//    	Toybox.Application.Properties.setValue("keyOW", "d72271af214d870eb94fe8f9af450db4");
-	
 		gpsOn = true;
-		weatherForecast = new WeatherForecast();
 		Position.enableLocationEvents(Position.LOCATION_ONE_SHOT, method(:onPosition));
         View.initialize();
     }

@@ -83,7 +83,6 @@ class CurrentView extends WatchUi.View {
 			dc.drawText(x, y + dc.getFontHeight(fontSmall), fontSmall, wSpeed[:unit], Graphics.TEXT_JUSTIFY_CENTER);
 		
 		}
-//		dc.drawText(dc.getWidth()-10, y, fontSmall, wSpeed[:valueString]+" "+wSpeed[:unit], Graphics.TEXT_JUSTIFY_RIGHT);
        	
        	//decoration
        	y += Tools.max(h, dc.getFontHeight(fontSmall)*2);

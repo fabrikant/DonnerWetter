@@ -118,87 +118,6 @@ module Tools {
     }
 
 	///////////////////////////////////////////////////////////////////////////
-	function dictToReadable(dict){
-		var keys = dict.keys();
-		var newDict = {};
-		for (var i=0; i < keys.size(); i++){
-			var key = keys[i];
-			var value = dict[key];
-			if (value instanceof Toybox.Lang.Symbol) {
-				value = value.toString();
-			}else if (value instanceof Toybox.Lang.Dictionary){
-				value = dictToReadable(value);
-			}
-			if (key instanceof Toybox.Lang.Symbol){
-				newDict[key.toString()] = value;
-			}else{
-				newDict[key] = value;
-			}
-		}
-		return newDict;
-	}
-
-	///////////////////////////////////////////////////////////////////////////
-	function copyDictonary(dict){
-		var keys = dict.keys();
-		var newDict = {};
-		for (var i=0; i < keys.size(); i++){
-			var key = keys[i];
-			var value = dict[key];
-			if (value instanceof Toybox.Lang.Dictionary){
-				value = copyDictonary(value);
-			}
-			newDict[key] = value;
-		}
-		return newDict;
-	}
-
-	///////////////////////////////////////////////////////////////////////////
-	function stringIsMore(val1, val2){
-		var array1 = val1.toCharArray();
-		var array2 = val2.toCharArray();
-		var size = array1.size() > array2.size() ?  array2.size() :  array1.size();
-		for (var i=0; i < size; i++){
-			if (array1[i]>array2[i]){
-				return true;
-			}else if (array1[i]<array2[i]){
-				return false;
-			}
-		}
-		if (array1.size() > array2.size()){
-			return true;
-		}
-		return false;
-	}
-
-	///////////////////////////////////////////////////////////////////////////
-	function log(message){
-		var myTime = System.getClockTime(); // ClockTime object
-		var timeString = myTime.hour.format("%02d") + ":" + myTime.min.format("%02d") + ":" + myTime.sec.format("%02d");
-		System.println(timeString+": "+message);
-	}
-	
-	///////////////////////////////////////////////////////////////////////////
-	function stringReplace(str, find, replace){
-		var res = "";
-		var ind = str.find(find);
-		var len = find.length();
-		var first;
-		while (ind != null){
-			if (ind == 0) {
-				first = "";
-			} else {
-				first = str.substring(0, ind);
-			}
-			res = res + first + replace;
-			str = str.substring(ind + len, str.length());
-			ind = str.find(find);
-		}
-		res = res + str;
-		return res;
-	}
-
-	///////////////////////////////////////////////////////////////////////////
 	function infoToString(info){
 		var hours = info.hour;
 		if (!System.getDeviceSettings().is24Hour) {
@@ -211,11 +130,6 @@ module Tools {
 	
 	}
 	
-	///////////////////////////////////////////////////////////////////////////
-	function momentToString(moment){
-		return infoToString(Gregorian.info(moment,Time.FORMAT_SHORT));
-	}
-
 	///////////////////////////////////////////////////////////////////////////
 	function createEmptyDrawable(id){
 		return new Toybox.WatchUi.Drawable({
@@ -318,7 +232,7 @@ module Tools {
 	///////////////////////////////////////////////////////////////////////////
 	function getWindColor(windSpeed){
 
-		var color = Graphics.COLOR_BLACK;
+		var color = GlanceTools.getForegroundColor();
 		if (Application.Properties.getValue("WindAutocolor")){
 	       	if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
 	       		windSpeed /= 2.237;
@@ -376,7 +290,7 @@ module Tools {
 
 	///////////////////////////////////////////////////////////////////////////
 	function getTempColor(temp){
-		var color = Graphics.COLOR_BLACK;
+		var color = GlanceTools.getForegroundColor();
 		if (Application.Properties.getValue("TempAutocolor")){
 	       	if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
 	       		temp = (temp - 32)*5/9;

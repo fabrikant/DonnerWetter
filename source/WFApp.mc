@@ -1,5 +1,6 @@
 using Toybox.Application;
 using Toybox.System;
+using Toybox.Activity;
 
 var globalCache;
 var fontSmall;
@@ -20,6 +21,24 @@ class WFApp extends Application.AppBase {
     
     // onStart() is called on application start up
     function onStart(state) {
+       	var location = Activity.getActivityInfo().currentLocation;
+    	if (location != null) {
+			location = location.toDegrees();
+			Application.Storage.setValue("Lat", location[0].toFloat());
+			Application.Storage.setValue("Lon", location[1].toFloat());
+		} else {
+			if (Toybox has :Weather){
+				location = Toybox.Weather.getCurrentConditions();
+				if (location != null) {
+					location = location.observationLocationPosition;
+			    	if (location != null) {
+						location = location.toDegrees();
+						Application.Storage.setValue("Lat", location[0].toFloat());
+						Application.Storage.setValue("Lon", location[1].toFloat());
+					}
+				}
+			}
+		}
     }
 
     // onStop() is called when your application is exiting
