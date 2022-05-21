@@ -93,11 +93,11 @@ class CurrentView extends WatchUi.View {
        	
        	//data fields
        	var offset = 5;
-       	var field = Tools.getValueByFieldType(Application.Properties.getValue("FT0"), data);
+       	var field = Tools.getValueByFieldType(HUMIDITY, data);
        	dc.drawText(x-offset-0.5, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_RIGHT);
        	dc.drawText(x-offset-0.5, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_RIGHT);
        	 
-		field = Tools.getValueByFieldType(Application.Properties.getValue("FT1"), data);
+		field = Tools.getValueByFieldType(PRESSURE, data);
        	dc.drawText(x+offset-0.5, y+offset, fontSmall, field[1], Graphics.TEXT_JUSTIFY_LEFT);
        	dc.drawText(x+offset-0.5, y+offset+dc.getFontHeight(fontSmall), fontSmall, field[0], Graphics.TEXT_JUSTIFY_LEFT);
        	 
@@ -112,8 +112,8 @@ class CurrentView extends WatchUi.View {
 				WIND_DEG => data["wind"]["deg"],
 				WIND_SPEED => data["wind"]["speed"],
 				DESCRIPTION => data["weather"][0]["description"],
-				FIELD_TYPE_HUMIDITY => data["main"]["humidity"],
-				FIELD_TYPE_PRESSURE => data["main"]["pressure"]};
+				HUMIDITY => data["main"]["humidity"],
+				PRESSURE => data["main"]["pressure"]};
 			Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
 			globalCache[STORAGE_KEY_CURRENT] = dict;
 			WatchUi.requestUpdate();

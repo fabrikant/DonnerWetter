@@ -7,13 +7,6 @@ using Toybox.Graphics;
 using Toybox.Math;
 
 enum{
-	FIELD_TYPE_EMPTY,
-	FIELD_TYPE_HUMIDITY,
-	FIELD_TYPE_PRESSURE,
-	FIELD_TYPE_UVI,
-	FIELD_TYPE_VISIBILITY,
-	FIELD_TYPE_DEW_POINT,
-	
 	ID,
 	ICON,
 	TEMP,
@@ -23,6 +16,8 @@ enum{
 	WIND_SPEED,
 	DATE,
 	DESCRIPTION,
+	HUMIDITY,
+	PRESSURE,
 	
 	STORAGE_KEY_CURRENT,
 	STORAGE_KEY_DAILY,
@@ -63,10 +58,10 @@ module Tools {
 	function getValueByFieldType(type, data){
 		var res = ["",""]; //EMPTY
 		
-		if (type == FIELD_TYPE_HUMIDITY){
-			res = [data[FIELD_TYPE_HUMIDITY].format("%d")+"%", Application.loadResource(Rez.Strings.Humidity)];
-		}else if (type == FIELD_TYPE_PRESSURE){
-			res = [Tools.pressureToString(data[FIELD_TYPE_PRESSURE]), Application.loadResource(Rez.Strings.Pressure)];
+		if (type == HUMIDITY){
+			res = [data[HUMIDITY].format("%d")+"%", Application.loadResource(Rez.Strings.Humidity)];
+		}else if (type == PRESSURE){
+			res = [Tools.pressureToString(data[PRESSURE]), Application.loadResource(Rez.Strings.Pressure)];
 		}
 		return res;
 	}
