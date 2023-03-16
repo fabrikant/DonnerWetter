@@ -48,13 +48,9 @@ class WeatherMenuItemDaily extends WeatherMenuItem{
 		
 		data = data[getId()];
 		
-        var size = 1;
-        
         var columnInterval = 10;
         var x = columnInterval;
         var y = 0;
-        var halfY = dc.getHeight()/2; 
-        var fontH = Graphics.getFontHeight(fontSmall);
   
         //Image
         var image = Icons.getImage(data[ID], data[ICON], true);

@@ -128,7 +128,6 @@ class CurrenInputDelegate extends WatchUi.BehaviorDelegate {
 	
 	function onKey(keyEvent){
 		
-		var key = keyEvent.getKey();
 		if (keyEvent.getKey() == WatchUi.KEY_ENTER){
 			showMenuDaily();
 		}else if (keyEvent.getKey() == WatchUi.KEY_UP){

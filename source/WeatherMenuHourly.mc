@@ -55,7 +55,6 @@ class WeatherMenuItemHourly extends WeatherMenuItem{
         var x = columnInterval;
         var y = 0;
         var halfY = dc.getHeight()/2; 
-        var fontH = Graphics.getFontHeight(fontSmall);
   
         //Date
         var dt = new Time.Moment(data[DATE]);
