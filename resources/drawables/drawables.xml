@@ -1,12 +1,12 @@
 <drawables>
-<!--
+	<!--
     <bitmap id="LauncherIcon" filename="Air.png" />
  -->
-      
-	<bitmap id="LauncherIcon" filename="png-40/1037.png" >
+
+	<bitmap id="LauncherIcon" filename="png-40/1037.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-    
+
 </drawables>

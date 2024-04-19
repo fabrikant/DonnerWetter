@@ -1,14 +1,10 @@
 <fonts>
-<!--
-	<font id="medium" scope="foreground" antialias="true" filter="-10123456789°CF"
-		filename="bebas/bebas-50.fnt" />
-	<font id="small" scope="foreground" antialias="true"
-		filename="bebas/bebas-20.fnt" />
+	<!--
+	<font id="medium" scope="foreground" antialias="true" filter="-10123456789°CF" filename="bebas/bebas-50.fnt" />
+	<font id="small" scope="foreground" antialias="true" filename="bebas/bebas-20.fnt" />
 -->
- 
-	<font id="medium" scope="foreground" antialias="true" filter="-10123456789°CF"
-		filename="roboto/roboto-40.fnt" />
-	<font id="small" scope="foreground" antialias="true"
-		filename="roboto/roboto-22.fnt" />
+
+	<font id="medium" scope="foreground" antialias="true" filter="-10123456789°CF" filename="roboto/roboto-40.fnt" />
+	<font id="small" scope="foreground" antialias="true" filename="roboto/roboto-22.fnt" />
 
 </fonts>

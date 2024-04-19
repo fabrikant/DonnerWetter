@@ -1,35 +1,35 @@
 <strings>
-    <string id="AppName">DonnerWetter</string>
+	<string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">влажн.</string>
 	<string id="Pressure" scope="foreground">давление</string>
-	
+
 	<string id="ForecastDaily" scope="foreground">прогноз\nдневной</string>
 	<string id="ForecastHourly" scope="foreground">прогноз\nпочасовой</string>
-	
+
 	<string id="keyOW" scope="foreground">API ключ для погоды</string>
 	<string id="KeyOWPrompt" scope="foreground">получить его бесплатно</string>
-	
+
 	<string id="Lat" scope="foreground">Широта</string>
 	<string id="Lon" scope="foreground">Долгота</string>
 	<string id="HourlyIntrval" scope="foreground">Интервал часового прогноза</string>
-	
+
 	<string id="Min" scope="foreground">мин</string>
 	<string id="Max" scope="foreground">макс</string>
-	
+
 	<!--WIND UNITS -->
 	<!--USE VERY!!!! SHOT STRING. its displayed on screen-->
 	<string id="WindSpeedUnit" scope="foreground">Ед. изм. скорости</string>
-	
+
 	<string id="SpeedUnitMSec" scope="glance">м/с</string>
 	<string id="SpeedUnitKmH" scope="glance">км/ч</string>
 	<string id="SpeedUnitMileH" scope="glance">мл/ч</string>
 	<string id="SpeedUnitFtSec" scope="glance">фт/с</string>
 	<string id="SpeedUnitBof" scope="glance">бал</string>
 	<string id="SpeedUnitKnots" scope="glance">узл</string>
-	
+
 	<string id="WindAutocolor" scope="foreground">Автоцвет для указателя ветра</string>
 	<string id="TempAutocolor" scope="foreground">Автоцвет для температуры</string>
-	
+
 	<!--PRESSURE UNITS -->
 	<string id="PressureUnit" scope="foreground">Ед. изм. давления</string>
 	<string id="PrUMmHg" scope="foreground">мм рт ст</string>

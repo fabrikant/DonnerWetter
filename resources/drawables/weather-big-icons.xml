@@ -1,623 +1,623 @@
 <drawables>
 
-	<bitmap id="Big_NA" filename="png-80/999-fill.png" >
+	<bitmap id="Big_NA" filename="png-80/999-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
+
 	<!-- Cloud -->
-	<bitmap id="Big_800d" filename="png-80/100-fill.png" >
+	<bitmap id="Big_800d" filename="png-80/100-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_800n" filename="png-80/150-fill.png" >
+	<bitmap id="Big_800n" filename="png-80/150-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
-	<bitmap id="Big_801d" filename="png-80/102-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_801n" filename="png-80/152-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-	<bitmap id="Big_802d" filename="png-80/103-fill.png" >
+	<bitmap id="Big_801d" filename="png-80/102-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_802n" filename="png-80/153-fill.png" >
+	<bitmap id="Big_801n" filename="png-80/152-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
-	<bitmap id="Big_803d" filename="png-80/101-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_803n" filename="png-80/151-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-	<bitmap id="Big_804d" filename="png-80/104-fill.png" >
+	<bitmap id="Big_802d" filename="png-80/103-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_804n" filename="png-80/104-fill.png" >
+	<bitmap id="Big_802n" filename="png-80/153-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_803d" filename="png-80/101-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_803n" filename="png-80/151-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_804d" filename="png-80/104-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_804n" filename="png-80/104-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
 
 	<!-- Thunderstorm -->
-	<bitmap id="Big_200d" filename="png-80/304-fill.png" >
+	<bitmap id="Big_200d" filename="png-80/304-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_200n" filename="png-80/304-fill.png" >
+	<bitmap id="Big_200n" filename="png-80/304-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
-	<bitmap id="Big_201d" filename="png-80/302-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_201n" filename="png-80/302-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-	<bitmap id="Big_202d" filename="png-80/303-fill.png" >
+	<bitmap id="Big_201d" filename="png-80/302-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_202n" filename="png-80/303-fill.png" >
+	<bitmap id="Big_201n" filename="png-80/302-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
-	<bitmap id="Big_210d" filename="png-80/1043.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_210n" filename="png-80/1043.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-	<bitmap id="Big_211d" filename="png-80/2015.png" >
+	<bitmap id="Big_202d" filename="png-80/303-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_211n" filename="png-80/2015.png" >
+	<bitmap id="Big_202n" filename="png-80/303-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
-	<bitmap id="Big_212d" filename="png-80/1014.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_212n" filename="png-80/1014.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-	<bitmap id="Big_221d" filename="png-80/1014.png" >
+	<bitmap id="Big_210d" filename="png-80/1043.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_221n" filename="png-80/1014.png" >
+	<bitmap id="Big_210n" filename="png-80/1043.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
- 	<bitmap id="Big_230d" filename="png-80/304-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_230n" filename="png-80/304-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
- 	<bitmap id="Big_231d" filename="png-80/2024.png" >
+	<bitmap id="Big_211d" filename="png-80/2015.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_231n" filename="png-80/2024.png" >
+	<bitmap id="Big_211n" filename="png-80/2015.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
- 	<bitmap id="Big_232d" filename="png-80/2024.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_232n" filename="png-80/2024.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-
- 	<!-- Drizzle -->
- 	<bitmap id="Big_300d" filename="png-80/309-fill.png" >
+	<bitmap id="Big_212d" filename="png-80/1014.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_300n" filename="png-80/309-fill.png" >
+	<bitmap id="Big_212n" filename="png-80/1014.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
- 	<bitmap id="Big_301d" filename="png-80/312-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_301n" filename="png-80/312-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
- 	<bitmap id="Big_302d" filename="png-80/1035.png" >
+	<bitmap id="Big_221d" filename="png-80/1014.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_302n" filename="png-80/1035.png" >
+	<bitmap id="Big_221n" filename="png-80/1014.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
- 	<bitmap id="Big_310d" filename="png-80/314-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_310n" filename="png-80/314-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	
-	<bitmap id="Big_311d" filename="png-80/315-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_311n" filename="png-80/315-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
- 	<bitmap id="Big_312d" filename="png-80/316-fill.png" >
+	<bitmap id="Big_230d" filename="png-80/304-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_312n" filename="png-80/316-fill.png" >
+	<bitmap id="Big_230n" filename="png-80/304-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-
- 	<bitmap id="Big_313d" filename="png-80/317-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
-		</palette>
-	</bitmap>
-	<bitmap id="Big_313n" filename="png-80/317-fill.png" >
-		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
- 	<bitmap id="Big_314d" filename="png-80/318-fill.png" >
+	<bitmap id="Big_231d" filename="png-80/2024.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_314n" filename="png-80/318-fill.png" >
+	<bitmap id="Big_231n" filename="png-80/2024.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
-  	<bitmap id="Big_321d" filename="png-80/308-fill.png" >
+	<bitmap id="Big_232d" filename="png-80/2024.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_321n" filename="png-80/308-fill.png" >
+	<bitmap id="Big_232n" filename="png-80/2024.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+
+	<!-- Drizzle -->
+	<bitmap id="Big_300d" filename="png-80/309-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_300n" filename="png-80/309-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_301d" filename="png-80/312-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_301n" filename="png-80/312-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_302d" filename="png-80/1035.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_302n" filename="png-80/1035.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_310d" filename="png-80/314-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_310n" filename="png-80/314-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_311d" filename="png-80/315-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_311n" filename="png-80/315-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_312d" filename="png-80/316-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_312n" filename="png-80/316-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_313d" filename="png-80/317-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_313n" filename="png-80/317-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_314d" filename="png-80/318-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_314n" filename="png-80/318-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+
+	<bitmap id="Big_321d" filename="png-80/308-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
+		</palette>
+	</bitmap>
+	<bitmap id="Big_321n" filename="png-80/308-fill.png">
+		<palette disableTransparency="false">
+			<color>555555</color>
 		</palette>
 	</bitmap>
 
 
 	<!-- Rain -->
-   	<bitmap id="Big_500d" filename="png-80/300-fill.png" >
+	<bitmap id="Big_500d" filename="png-80/300-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_500n" filename="png-80/350-fill.png" >
+	<bitmap id="Big_500n" filename="png-80/350-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
- 
-  	<bitmap id="Big_501d" filename="png-80/300-fill.png" >
+
+	<bitmap id="Big_501d" filename="png-80/300-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_501n" filename="png-80/350-fill.png" >
+	<bitmap id="Big_501n" filename="png-80/350-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_502d" filename="png-80/301-fill.png" >
+
+	<bitmap id="Big_502d" filename="png-80/301-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_502n" filename="png-80/351-fill.png" >
+	<bitmap id="Big_502n" filename="png-80/351-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_503d" filename="png-80/301-fill.png" >
+
+	<bitmap id="Big_503d" filename="png-80/301-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_503n" filename="png-80/351-fill.png" >
+	<bitmap id="Big_503n" filename="png-80/351-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_504d" filename="png-80/301-fill.png" >
+
+	<bitmap id="Big_504d" filename="png-80/301-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_504n" filename="png-80/351-fill.png" >
+	<bitmap id="Big_504n" filename="png-80/351-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_511d" filename="png-80/1015.png" >
+
+	<bitmap id="Big_511d" filename="png-80/1015.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_511n" filename="png-80/1015.png" >
+	<bitmap id="Big_511n" filename="png-80/1015.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_520d" filename="png-80/305.png" >
+
+	<bitmap id="Big_520d" filename="png-80/305.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_520n" filename="png-80/305.png" >
+	<bitmap id="Big_520n" filename="png-80/305.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_521d" filename="png-80/306.png" >
+
+	<bitmap id="Big_521d" filename="png-80/306.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_521n" filename="png-80/306.png" >
+	<bitmap id="Big_521n" filename="png-80/306.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_522d" filename="png-80/307.png" >
+
+	<bitmap id="Big_522d" filename="png-80/307.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_522n" filename="png-80/307.png" >
+	<bitmap id="Big_522n" filename="png-80/307.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_531d" filename="png-80/301-fill.png" >
+
+	<bitmap id="Big_531d" filename="png-80/301-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_531n" filename="png-80/351-fill.png" >
+	<bitmap id="Big_531n" filename="png-80/351-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-	
+
+
 	<!-- Snow -->
-   	<bitmap id="Big_600d" filename="png-80/407-fill.png" >
+	<bitmap id="Big_600d" filename="png-80/407-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_600n" filename="png-80/457-fill.png" >
+	<bitmap id="Big_600n" filename="png-80/457-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_601d" filename="png-80/400-fill.png" >
+
+	<bitmap id="Big_601d" filename="png-80/400-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_601n" filename="png-80/400-fill.png" >
+	<bitmap id="Big_601n" filename="png-80/400-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_602d" filename="png-80/401-fill.png" >
+
+	<bitmap id="Big_602d" filename="png-80/401-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_602n" filename="png-80/401-fill.png" >
+	<bitmap id="Big_602n" filename="png-80/401-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_611d" filename="png-80/408-fill.png" >
+
+	<bitmap id="Big_611d" filename="png-80/408-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_611n" filename="png-80/408-fill.png" >
+	<bitmap id="Big_611n" filename="png-80/408-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_612d" filename="png-80/409-fill.png" >
+
+	<bitmap id="Big_612d" filename="png-80/409-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_612n" filename="png-80/409-fill.png" >
+	<bitmap id="Big_612n" filename="png-80/409-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_613d" filename="png-80/410-fill.png" >
+
+	<bitmap id="Big_613d" filename="png-80/410-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_613n" filename="png-80/410-fill.png" >
+	<bitmap id="Big_613n" filename="png-80/410-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_615d" filename="png-80/406-fill.png" >
+
+	<bitmap id="Big_615d" filename="png-80/406-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_615n" filename="png-80/456-fill.png" >
+	<bitmap id="Big_615n" filename="png-80/456-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_616d" filename="png-80/404-fill.png" >
+
+	<bitmap id="Big_616d" filename="png-80/404-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_616n" filename="png-80/404-fill.png" >
+	<bitmap id="Big_616n" filename="png-80/404-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_620d" filename="png-80/1033.png" >
+
+	<bitmap id="Big_620d" filename="png-80/1033.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_620n" filename="png-80/1033.png" >
+	<bitmap id="Big_620n" filename="png-80/1033.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_621d" filename="png-80/1004.png" >
+
+	<bitmap id="Big_621d" filename="png-80/1004.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_621n" filename="png-80/1004.png" >
+	<bitmap id="Big_621n" filename="png-80/1004.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-   	<bitmap id="Big_622d" filename="png-80/499-fill.png" >
+
+	<bitmap id="Big_622d" filename="png-80/499-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_622n" filename="png-80/499-fill.png" >
+	<bitmap id="Big_622n" filename="png-80/499-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
+
 	<!-- Atmosphere -->
-  	<bitmap id="Big_701d" filename="png-80/501-fill.png" >
+	<bitmap id="Big_701d" filename="png-80/501-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_701n" filename="png-80/501-fill.png" >
+	<bitmap id="Big_701n" filename="png-80/501-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_711d" filename="png-80/smoke.png" >
+
+	<bitmap id="Big_711d" filename="png-80/smoke.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_711n" filename="png-80/smoke.png" >
+	<bitmap id="Big_711n" filename="png-80/smoke.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_721d" filename="png-80/502-fill.png" >
+
+	<bitmap id="Big_721d" filename="png-80/502-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_721n" filename="png-80/502-fill.png" >
+	<bitmap id="Big_721n" filename="png-80/502-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_731d" filename="png-80/2010.png" >
+
+	<bitmap id="Big_731d" filename="png-80/2010.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_731n" filename="png-80/2010.png" >
+	<bitmap id="Big_731n" filename="png-80/2010.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_741d" filename="png-80/1017.png" >
+
+	<bitmap id="Big_741d" filename="png-80/1017.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_741n" filename="png-80/1017.png" >
+	<bitmap id="Big_741n" filename="png-80/1017.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_751d" filename="png-80/1051.png" >
+
+	<bitmap id="Big_751d" filename="png-80/1051.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_751n" filename="png-80/1051.png" >
+	<bitmap id="Big_751n" filename="png-80/1051.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_761d" filename="png-80/504-fill.png" >
+
+	<bitmap id="Big_761d" filename="png-80/504-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_761n" filename="png-80/504-fill.png" >
+	<bitmap id="Big_761n" filename="png-80/504-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_762d" filename="png-80/504-fill.png" >
+
+	<bitmap id="Big_762d" filename="png-80/504-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_762n" filename="png-80/504-fill.png" >
+	<bitmap id="Big_762n" filename="png-80/504-fill.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_771d" filename="png-80/1602.png" >
+
+	<bitmap id="Big_771d" filename="png-80/1602.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_771n" filename="png-80/1602.png" >
+	<bitmap id="Big_771n" filename="png-80/1602.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	
-  	<bitmap id="Big_781d" filename="png-80/1002.png" >
+
+	<bitmap id="Big_781d" filename="png-80/1002.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
-	<bitmap id="Big_781n" filename="png-80/1002.png" >
+	<bitmap id="Big_781n" filename="png-80/1002.png">
 		<palette disableTransparency="false">
-		     <color>555555</color>
+			<color>555555</color>
 		</palette>
 	</bitmap>
 

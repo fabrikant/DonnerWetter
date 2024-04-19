@@ -1,5 +1,5 @@
 <settings>
-	
+
 	<setting propertyKey="@Properties.keyOW" title="@Strings.keyOW" prompt="@Strings.KeyOWPrompt" helpUrl="https://home.openweathermap.org/api_keys">
 		<settingConfig type="alphaNumeric" />
 	</setting>
@@ -16,25 +16,23 @@
 		<settingConfig type="numeric" min="1" max="12" />
 	</setting>
 
-	<setting propertyKey="@Properties.Theme"
-		title="@Strings.Theme">
+	<setting propertyKey="@Properties.Theme" title="@Strings.Theme">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.Light</listEntry>
 			<listEntry value="1">@Strings.Dark</listEntry>
 		</settingConfig>
 	</setting>
 
-    <setting propertyKey="@Properties.WindAutocolor" title="@Strings.WindAutocolor">
-        <settingConfig type="boolean" />
-    </setting>
-  
-    <setting propertyKey="@Properties.TempAutocolor" title="@Strings.TempAutocolor">
-        <settingConfig type="boolean" />
-    </setting>
-	
+	<setting propertyKey="@Properties.WindAutocolor" title="@Strings.WindAutocolor">
+		<settingConfig type="boolean" />
+	</setting>
+
+	<setting propertyKey="@Properties.TempAutocolor" title="@Strings.TempAutocolor">
+		<settingConfig type="boolean" />
+	</setting>
+
 	<!--UNIT WIND SPEED -->
-	<setting propertyKey="@Properties.WindSpeedUnit"
-		title="@Strings.WindSpeedUnit">
+	<setting propertyKey="@Properties.WindSpeedUnit" title="@Strings.WindSpeedUnit">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.SpeedUnitMSec</listEntry>
 			<listEntry value="1">@Strings.SpeedUnitKmH</listEntry>
@@ -44,10 +42,9 @@
 			<listEntry value="5">@Strings.SpeedUnitKnots</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<!--UNIT PRESSURE -->
-	<setting propertyKey="@Properties.PressureUnit"
-		title="@Strings.PressureUnit">
+	<setting propertyKey="@Properties.PressureUnit" title="@Strings.PressureUnit">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.PrUMmHg</listEntry>
 			<listEntry value="1">@Strings.PrUPsi</listEntry>

@@ -5,72 +5,75 @@ using Toybox.Application;
 
 (:glance)
 class WeatherGlanceView extends WatchUi.GlanceView {
+  function initialize() {
+    GlanceView.initialize();
+  }
 
-	function initialize() {
-    	GlanceView.initialize();
-	}
+  function onShow() {
+    var weatherForecast = new WeatherForecast();
+    weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate));
+  }
 
-    function onShow() {
-    	var weatherForecast = new WeatherForecast();
-    	weatherForecast.startRequestCurrent(self.method(:onWeatherUpdate)); 
+  function onUpdate(dc) {
+    var bColor = GlanceTools.getBackgroundColor();
+    var fColor = GlanceTools.getForegroundColor();
+
+    dc.setColor(bColor, bColor);
+    dc.clear();
+    dc.setColor(fColor, Graphics.COLOR_TRANSPARENT);
+    var data = Application.Storage.getValue(STORAGE_KEY_CURRENT);
+
+    if (data == null) {
+      dc.drawText(
+        dc.getWidth() / 2,
+        dc.getHeight() / 2,
+        Graphics.FONT_GLANCE,
+        "NO DATA",
+        Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+      );
+      return;
     }
 
-	function onUpdate(dc) {
-        
-		var bColor = GlanceTools.getBackgroundColor();
-        var fColor = GlanceTools.getForegroundColor();
-        
-		dc.setColor(bColor, bColor);
-		dc.clear();
-		dc.setColor(fColor, Graphics.COLOR_TRANSPARENT);
-	    var data = Application.Storage.getValue(STORAGE_KEY_CURRENT);
-        
-		if (data == null){
-			dc.drawText(
-				dc.getWidth()/2, 
-				dc.getHeight()/2, 
-				Graphics.FONT_GLANCE, 
-        		"NO DATA", 
-        		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-			);
-        	return;
-		}
+    var interval = 10;
+    var x = interval;
+    var image = Icons.getImage(data[ID], data[ICON], true);
+    if (image != null) {
+      var imageH = image.getDc().getHeight();
+      var y = (dc.getHeight() - imageH) / 2;
+      dc.drawBitmap(x, y, image);
+      x += image.getDc().getWidth() + interval;
+    }
+    dc.drawText(
+      x,
+      dc.getHeight() / 2,
+      Graphics.FONT_GLANCE,
+      getTemperature(data[TEMP]),
+      Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
+    );
+  }
 
-		var interval = 10;
-		var x = interval;
-		var image = Icons.getImage(data[ID], data[ICON], true);
-		if (image != null){
-			var imageH = image.getDc().getHeight();
-			var y = (dc.getHeight()-imageH)/2; 
-			dc.drawBitmap(x, y, image);
-			x += image.getDc().getWidth()+interval;
-		}
-		dc.drawText(x, dc.getHeight()/2, Graphics.FONT_GLANCE, getTemperature(data[TEMP]), Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-		
-	}
-	
-	function getTemperature(temp){
-		var unit = "C";
-		if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE){
-			unit = "F";
-		}
-		return temp.format("%d")+"°"+unit;
-	}
+  function getTemperature(temp) {
+    var unit = "C";
+    if (System.getDeviceSettings().temperatureUnits == System.UNIT_STATUTE) {
+      unit = "F";
+    }
+    return temp.format("%d") + "°" + unit;
+  }
 
-	function onWeatherUpdate(code, data){
-		if (code == 200){
-			var dict ={
-				ID => data["weather"][0]["id"],
-				ICON => data["weather"][0]["icon"],
-				TEMP => data["main"]["temp"],
-				WIND_DEG => data["wind"]["deg"],
-				WIND_SPEED => data["wind"]["speed"],
-				DESCRIPTION => data["weather"][0]["description"],
-				HUMIDITY => data["main"]["humidity"],
-				PRESSURE => data["main"]["pressure"]};
-			Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
-			WatchUi.requestUpdate();
-		}
-	}
-	
+  function onWeatherUpdate(code, data) {
+    if (code == 200) {
+      var dict = {
+        ID => data["weather"][0]["id"],
+        ICON => data["weather"][0]["icon"],
+        TEMP => data["main"]["temp"],
+        WIND_DEG => data["wind"]["deg"],
+        WIND_SPEED => data["wind"]["speed"],
+        DESCRIPTION => data["weather"][0]["description"],
+        HUMIDITY => data["main"]["humidity"],
+        PRESSURE => data["main"]["pressure"],
+      };
+      Application.Storage.setValue(STORAGE_KEY_CURRENT, dict);
+      WatchUi.requestUpdate();
+    }
+  }
 }

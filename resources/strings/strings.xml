@@ -2,25 +2,25 @@
 	<string id="AppName">DonnerWetter</string>
 	<string id="Humidity" scope="foreground">humidity</string>
 	<string id="Pressure" scope="foreground">pressure</string>
-	
-	
+
+
 	<string id="ForecastDaily" scope="foreground">forecast\ndaily</string>
 	<string id="ForecastHourly" scope="foreground">forecast\nhourly</string>
-	
+
 	<string id="keyOW" scope="foreground">API key for weather</string>
 	<string id="KeyOWPrompt" scope="foreground">get it for free</string>
-	
+
 	<string id="Lat" scope="foreground">Latitude</string>
 	<string id="Lon" scope="foreground">Longitude</string>
 	<string id="HourlyIntrval" scope="foreground">Hour forecast interval</string>
-	
+
 	<string id="Min" scope="foreground">min</string>
 	<string id="Max" scope="foreground">max</string>
 
 	<!--WIND UNITS -->
 	<!--USE VERY!!!! SHOT STRING. its displayed on screen-->
 	<string id="WindSpeedUnit" scope="foreground">Speed unit</string>
-	
+
 	<string id="SpeedUnitMSec" scope="glance">mps</string>
 	<string id="SpeedUnitKmH" scope="glance">kmph</string>
 	<string id="SpeedUnitMileH" scope="glance">mph</string>
@@ -42,9 +42,9 @@
 
 	<string id="FT0" scope="foreground">Field 0</string>
 	<string id="FT1" scope="foreground">Field 1</string>
-	
+
 	<string id="Theme" scope="foreground">Theme</string>
 	<string id="Light" scope="foreground">Light</string>
 	<string id="Dark" scope="foreground">Dark</string>
-	
+
 </strings>
