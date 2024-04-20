@@ -4,6 +4,10 @@
 		<settingConfig type="alphaNumeric" />
 	</setting>
 
+	<setting propertyKey="@Properties.ForecastByPass" title="@Strings.ForecastByPass">
+		<settingConfig type="boolean" />
+	</setting>
+
 	<setting propertyKey="@Properties.Lat" title="@Strings.Lat">
 		<settingConfig type="numeric" />
 	</setting>

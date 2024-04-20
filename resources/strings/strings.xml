@@ -47,4 +47,5 @@
 	<string id="Light" scope="foreground">Light</string>
 	<string id="Dark" scope="foreground">Dark</string>
 
+	<string id="ForecastByPass" scope="foreground">Bypass forecast error</string>
 </strings>

@@ -192,10 +192,20 @@ class CurrenInputDelegate extends WatchUi.BehaviorDelegate {
   }
 
   function onKey(keyEvent) {
+    var bypass = Application.Properties.getValue("ForecastByPass");
+
     if (keyEvent.getKey() == WatchUi.KEY_ENTER) {
-      showMenuDaily();
+      if (bypass) {
+        showMenuHourly();
+      } else {
+        showMenuDaily();
+      }
     } else if (keyEvent.getKey() == WatchUi.KEY_UP) {
-      showMenuDaily();
+      if (bypass) {
+        showMenuHourly();
+      } else {
+        showMenuDaily();
+      }
     } else if (keyEvent.getKey() == WatchUi.KEY_DOWN) {
       showMenuHourly();
     } else {
@@ -211,17 +221,17 @@ class CurrenInputDelegate extends WatchUi.BehaviorDelegate {
         new EmptyDelegate(),
         WatchUi.SLIDE_IMMEDIATE
       );
-    } else {
-      WatchUi.pushView(
-        new WeatherMenuDaily(),
-        new WeatherMenuDelegate(),
-        WatchUi.SLIDE_IMMEDIATE
-      );
     }
   }
 
   function onTap(clickEvent) {
-    showMenuDaily();
+    var bypass = Application.Properties.getValue("ForecastByPass");
+    if (bypass) {
+      showMenuHourly();
+    } else {
+      showMenuDaily();
+    }
+
     return false;
   }
 

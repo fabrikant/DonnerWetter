@@ -47,16 +47,31 @@ class WeatherMenu extends WatchUi.CustomMenu {
           });
         }
       } else {
-        var owmArray = data["hourly"];
-        for (var i = 0; i < owmArray.size(); i++) {
-          dataArray.add({
-            ID => owmArray[i]["weather"][0]["id"],
-            ICON => owmArray[i]["weather"][0]["icon"],
-            TEMP => owmArray[i]["temp"],
-            WIND_DEG => owmArray[i]["wind_deg"],
-            WIND_SPEED => owmArray[i]["wind_speed"],
-            DATE => owmArray[i]["dt"],
-          });
+        var bypass = Application.Properties.getValue("ForecastByPass");
+        if (bypass) {
+          var owmArray = data["list"];
+          for (var i = 0; i < owmArray.size(); i++) {
+            dataArray.add({
+              ID => owmArray[i]["weather"][0]["id"],
+              ICON => owmArray[i]["weather"][0]["icon"],
+              TEMP => owmArray[i]["main"]["temp"],
+              WIND_DEG => owmArray[i]["wind"]["deg"],
+              WIND_SPEED => owmArray[i]["wind"]["speed"],
+              DATE => owmArray[i]["dt"],
+            });
+          }
+        } else {
+          var owmArray = data["hourly"];
+          for (var i = 0; i < owmArray.size(); i++) {
+            dataArray.add({
+              ID => owmArray[i]["weather"][0]["id"],
+              ICON => owmArray[i]["weather"][0]["icon"],
+              TEMP => owmArray[i]["temp"],
+              WIND_DEG => owmArray[i]["wind_deg"],
+              WIND_SPEED => owmArray[i]["wind_speed"],
+              DATE => owmArray[i]["dt"],
+            });
+          }
         }
       }
       Application.Storage.setValue(storageKey, dataArray);

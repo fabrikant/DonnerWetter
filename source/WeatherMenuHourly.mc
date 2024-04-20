@@ -21,7 +21,12 @@ class WeatherMenuHourly extends WeatherMenu {
     if (data != null) {
       dataSize = data.size();
     }
+
     var interval = Application.Properties.getValue("HourlyIntrval");
+    var bypass = Application.Properties.getValue("ForecastByPass");
+    if (bypass) {
+      interval = 1;
+    }
     for (var i = itemsCount; i < dataSize; i += interval) {
       itemsCount = i + 1;
       addItem(new WeatherMenuItemHourly(i, storageKey, self));

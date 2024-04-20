@@ -21,15 +21,29 @@ class WeatherForecast {
       units = "imperial";
     }
 
-    var url = "https://api.openweathermap.org/data/2.5/onecall";
-    var parametres = {
-      "lat" => Application.Properties.getValue("Lat"),
-      "lon" => Application.Properties.getValue("Lon"),
-      "appid" => Application.Properties.getValue("keyOW"),
-      "units" => units,
-      "exclude" => exclude,
-      "lang" => getLang(),
-    };
+    var bypass = Application.Properties.getValue("ForecastByPass");
+    var url = null;
+    var parametres = null;
+    if (bypass) {
+      url = "https://api.openweathermap.org/data/2.5/forecast";
+      parametres = {
+        "lat" => Application.Properties.getValue("Lat"),
+        "lon" => Application.Properties.getValue("Lon"),
+        "appid" => Application.Properties.getValue("keyOW"),
+        "units" => units,
+        "lang" => getLang(),
+      };
+    } else {
+      url = "https://api.openweathermap.org/data/2.5/onecall";
+      parametres = {
+        "lat" => Application.Properties.getValue("Lat"),
+        "lon" => Application.Properties.getValue("Lon"),
+        "appid" => Application.Properties.getValue("keyOW"),
+        "units" => units,
+        "exclude" => exclude,
+        "lang" => getLang(),
+      };
+    }
     var options = {};
     var req = new RequestDelegate(self.method(:onResponse), callback);
     req.makeWebRequest(url, parametres, options);
